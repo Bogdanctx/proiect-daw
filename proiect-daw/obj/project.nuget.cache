@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1An45srJtdA=",
+  "dgSpecHash": "BycT9uff5gk=",
   "success": true,
-  "projectFilePath": "E:\\proiect-daw\\proiect-daw\\proiect-daw.csproj",
+  "projectFilePath": "C:\\Users\\bgd\\Desktop\\proiect-daw\\proiect-daw\\proiect-daw.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bgd\\.nuget\\packages\\anglesharp\\0.17.1\\anglesharp.0.17.1.nupkg.sha512",
     "C:\\Users\\bgd\\.nuget\\packages\\anglesharp.css\\0.17.0\\anglesharp.css.0.17.0.nupkg.sha512",
@@ -183,5 +183,16 @@
     "C:\\Users\\bgd\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\bgd\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Text.Json' 7.0.3 has a known high severity vulnerability, https://github.com/advisories/GHSA-hh2w-p6rv-4g7w",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
